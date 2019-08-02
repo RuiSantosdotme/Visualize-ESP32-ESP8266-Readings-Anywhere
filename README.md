@@ -4,4 +4,4 @@ In this project you'll create a web page that displays sensor readings in a plot
 
 Complete project details: https://RandomnNerdTutorials.com/visualize-esp32-esp8266-sensor-readings-from-anywhere/
 
-[![Project Image ><](https://raw.githubusercontent.com/RuiSantosdotme/Visualize-ESP32-ESP8266-Readings-Anywhere/master/project-image.jpg)][https://RandomnNerdTutorials.com/visualize-esp32-esp8266-sensor-readings-from-anywhere/]
+[![Project Image](https://raw.githubusercontent.com/RuiSantosdotme/Visualize-ESP32-ESP8266-Readings-Anywhere/master/project-image.jpg)](https://RandomnNerdTutorials.com/visualize-esp32-esp8266-sensor-readings-from-anywhere/)
