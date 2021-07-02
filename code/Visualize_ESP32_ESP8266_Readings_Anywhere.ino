@@ -1,6 +1,6 @@
 /*
   Rui Santos
-  Complete project details at https://RandomNerdTutorials.com
+  Complete project details at https://RandomNerdTutorials.com/visualize-esp32-esp8266-sensor-readings-from-anywhere/
   
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files.
@@ -68,10 +68,11 @@ void setup() {
 void loop() {
   //Check WiFi connection status
   if(WiFi.status()== WL_CONNECTED){
+    WiFiClient client;
     HTTPClient http;
     
     // Your Domain name with URL path or IP address with path
-    http.begin(serverName);
+    http.begin(client, serverName);
     
     // Specify content-type header
     http.addHeader("Content-Type", "application/x-www-form-urlencoded");
